@@ -1,0 +1,1057 @@
+nature ecology & evolution
+
+Article                                                                                                    https://doi.org/10.1038/s41559-025-02809-1
+
+
+Two decades of improved wetland carbon
+sequestration in northern mid-to-high
+latitudes are offset by tropical and
+southern declines
+
+Received: 24 August 2024                                 Junjie Li1,2, Junji Yuan 1 , Philippe Ciais 3, Hojeong Kang 4,
+                                                         Chris Freeman 5, Yuanyuan Huang 6, Yanhong Dong1,2, Deyan Liu1,7, Ye Li1,2 &
+Accepted: 24 June 2025
+                                                         Weixin Ding 1
+Published online: 22 July 2025
+
+    Check for updates                                    Terrestrial carbon (C) sink has long been recognized as trending upwards,
+                                                         yet its recent slowdown raises concerns about accelerating climate change.
+                                                         Variations in wetland C sequestration are hypothesized to play a key role in
+                                                         this shift. Here we mapped annual water levels in global wetlands from 2000 to
+                                                         2020 using 2,295 field-based measurements and predicted the spatiotemporal
+                                                         pattern of wetland net ecosystem production (NEP) in conjunction with other
+                                                         environmental factors. By compiling 934 in situ observations, we estimated
+                                                         a global mean wetland NEP of 56.4 (44.0‒68.8) gC m−2 yr−1. Integrating the
+                                                         NEP dataset with environmental datasets and machine-learning models, we
+                                                         estimated the mean annual global wetland C sequestration between 2000
+                                                         and 2020 to be 1,004 (961‒1,047) TgC, 70% of which originated from tropical
+                                                         wetlands. We observed a decline in global wetland C sinks until 2005, followed
+                                                         by an increase thereafter. Overall, wetland C sequestration was roughly stable
+                                                         during 2000‒2020, as gains in northern mid-to-high latitudes were fully
+                                                         overwhelmed by declines in the tropics and southern mid-to-high latitudes.
+                                                         Our findings highlight hydrological change as a dominant driver of increasing
+                                                         regional variability in wetland C sinks, while intensifying hydrological
+                                                         extremes under climate change may undermine the resilience of wetland C
+                                                         sinks and the ecosystem services they support.
+
+Carbon dioxide (CO2) exerts a disproportionate role in regulating the             CO2 emissions6. However, a decline in the efficiency of terrestrial C sinks
+global carbon (C) cycle and represents the most important greenhouse              has emerged in the early twenty-first century, probably constrained by
+gas influencing global warming1,2. Alarmingly, atmospheric CO2 concen-            limitations in nutrients, water and heat, among other factors7,12,13. The
+trations have increased from 284.7 ppm in 1850 to 419.3 ppm in 2023               rate of increase in land CO2 uptake has slowed from 0.045 GtC yr−2 during
+(ref. 3), largely due to anthropogenic emissions4,5. Over the same historical     1960‒2000 to 0.02 GtC yr−2 in 2001‒2022 (ref. 12). Yet, it remains unclear
+period, the land CO2 sink increased in pace with anthropogenic emis-              which land ecosystems (for example, wetlands or forests) or mechanisms
+sions6, driven primarily by CO2 fertilization, nitrogen inputs and climate        are primarily responsible for this recent slowdown.
+warming in northern regions7–11. During 1850‒2023, land ecosystems                     Wetlands cover 3‒13% of the Earth’s land surface14, yet their C
+cumulatively sequestered 225 GtC, offsetting ~32% of total anthropogenic          storage approaches 520‒710 PgC, representing 20‒30% or more of the
+
+
+A full list of affiliations appears at the end of the paper.   e-mail: jjyuan@issas.ac.cn; wxding@issas.ac.cn
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                        1861
+Article                                                                                                   https://doi.org/10.1038/s41559-025-02809-1
+
+global soil C stocks15,16. This substantial pool means that the destabi-         Results and discussion
+lization of wetland C could pose a major climate risk by turning these           Characteristics of global wetland NEP
+ecosystems into net sources of atmospheric CO2 (ref. 17). However,               Our global-scale in situ database indicated that wetland NEP was usually
+wetlands can remain the most cost-effective and efficient ecosystems             positive for most observations, with a mean uptake of 56.4 (95% confi-
+for CO2 removal when waterlogged conditions are maintained18–20.                 dence interval (CI) 44.0 to 68.8) gC m−2 yr−1, indicating that wetlands
+Despite this, wetlands are not explicitly incorporated into the models           predominantly function as a net C sink (Fig. 1b). This global mean was
+used to constrain the global C budget. Accurate assessments of spa-              approximately 1.5‒3.0 times lower than the arithmetic mean values
+tiotemporal patterns in global wetland C sequestration will help to              reported by Lu et al.43 and Mitsch et al.19 (Fig. 1c), largely due to differ-
+reduce uncertainties and better attribute the terrestrial C sink.                ences in data coverage and representativeness44. Lu et al.43 compiled
+      Multiple global change factors, for example, CO2 fertilization,            NEP data from 22 freshwater wetlands and derived a mean annual NEP
+nitrogen deposition, climate warming and shifts in precipitation pat-            of 93.15 gC m−2 yr−1, while Mitsch et al.19 estimated a substantially higher
+terns, have the potential to reshape wetland C sinks21–24. Of these, wet-        global mean of 186.06 gC m−2 yr−1 based on data from 21 sites. Both of
+land C dynamics are especially sensitive to changes in hydrological              these earlier studies were based on relatively small sample sizes and
+status25–27. Since 1950, 4.85 Mkm2 of global wetlands have been lost             were heavily weighted towards marshes, which tend to exhibit higher
+due to human activities (for example, drainage) and climatic drying25,           NEP due to elevated plant primary productivity45,46. Our NEP dataset
+both of which commonly result in lowered water levels (WLs). Declines            incorporates 222 wetland sites distributed globally that encompass
+in water tables expose C-rich soils to oxygen, accelerating microbial            various climate zones and wetland types and therefore provides a more
+decomposition and ultimately boosting ecosystem respiration (ER)28–30.           representative basis for estimating global wetland NEP. Recently, Li
+However, due to the high spatial heterogeneity of wetlands31, decom-             et al.18 estimated a mean NEP of 43.0 gC m−2 yr−1 for global inland wet-
+position rate changes in response to water-table drawdown vary among             lands and peatlands, 24% lower than our estimates. However, their
+studies. For instance, several studies report reduced or unchanged               dataset encompassed inland open waters (for example, lakes, rivers,
+decomposition rates under lowered WLs32. Similarly, the response of              reservoirs and so on) and human-influenced wetlands (for example,
+gross primary production (GPP) to WL decline is not uniform across               rice paddies, drained wetlands and so on), which are beyond the scope
+diverse wetland categories and geographies27,33,34. Considering that GPP         of our study. These systems generally exhibit low CO2 sequestration
+and ER are highly uncertain, it remains unclear to what extent and how           capacity and can even act as sources of CO2 (refs. 25,26,47–50).
+water-table drawdown directly regulates variations in net ecosystem                    In terms of climate zones, the average NEP was 89.4 (95% CI 17.1
+production (NEP). Lowered WLs may also alter groundwater-dissolved               to 161.7) gC m−2 yr−1 for tropical wetlands, 79.7 (95% CI 56.7 to 102.8)
+C export35, but global estimates of this pathway are lacking. By contrast,       gC m−2 yr−1 for temperate wetlands, 39.9 (95% CI 26.5 to 53.2) gC m−2 yr−1
+methane (CH4) emissions generally declined with lowering WLs25–27.               for boreal wetlands and 21.7 (95% CI 11.7 to 31.7) gC m−2 yr−1 for Arc-
+However, with highly uncertain NEP and lateral C loss, the impact of             tic wetlands (Fig. 1d). This latitudinal gradient probably reflects the
+lowered WLs on wetland C sinks is still highly variable. Moreover, global        influence of warmer climates, longer growing seasons and higher
+patterns in wetland WLs have remained unclear, despite a previous                availability of diffuse light in tropical and temperate regions, all of
+study presenting a static map of terrestrial groundwater table depth             which enhanced C sequestration7,51–53. Furthermore, our dataset
+based on field observations and a groundwater model36. Addressing                revealed that WLs were generally higher in tropical and temperate
+the knowledge gap in spatiotemporal patterns of global wetland WLs               wetlands (Extended Data Fig. 1b), further contributing to stronger C
+and their effects on wetland C fluxes (for example, CO2 and CH4 fluxes)          sinks relative to boreal and Arctic wetlands18. Among wetland types, the
+is critical for resolving the role of wetlands in the terrestrial C sink under   highest NEPs were observed in marshes (168.1 gC m−2 yr−1 with a 95% CI
+changing hydrologic regimes.                                                     of 126.3 to 209.9 gC m−2 yr−1) and swamps (150.4 gC m−2 yr−1 with a 95%
+      Here, by compiling 2,295 in situ measurements from 606 pub-                CI of 63.8 to 237.0 gC m−2 yr−1), both significantly higher than the values
+lished papers and developing machine-learning models (Extended Data              in peatlands, that is, bogs, fens and peat swamps (Fig. 1e). Specifically,
+Fig. 1), we mapped wetland WLs at 0.25° × 0.25° resolution (Extended             NEP was estimated at 32.8 (95% CI 20.1 to 45.6) gC m−2 yr−1 for bogs, 38.2
+Data Fig. 2) and investigated the spatiotemporal pattern of annual               (95% CI 21.5 to 54.9) gC m−2 yr−1 for fens and −65.8 (95% CI −198.2 to 66.6)
+mean WLs of global wetlands. The WL dataset was then used to pre-                gC m−2 yr−1 for peat swamps. The relatively high NEPs in marshes and
+dict spatial and temporal variations in wetland NEP. Furthermore, a              swamps are attributed to their high primary productivity43,45,46,54 and
+global dataset containing 934 site–year records of field observations            higher WLs (Extended Data Fig. 1c), which together foster strong C
+of NEP for wetlands was extracted from 258 peer-reviewed publications            sequestration. For peatlands, flooded conditions are not the typical
+and the FLUXNET database (Fig. 1a). Of these, 729 and 205 site–year              hydrological and biogeochemical condition26, which aligns with our
+records were measured using the eddy covariance method and the                   findings that WLs in bogs, fens and peat swamps are markedly lower
+chamber method, respectively. Previous studies proposed that NEP                 than the ground surface. Given this, C-rich upper soil layers in peat-
+from peer-reviewed papers based on these two methods are of equiva-              lands have more risk to be exposed to oxygen, thus accelerating peat
+lent accuracy, despite potential differences in precision25,37. NEP is the       decomposition and CO2 emissions, which can offset CO2 uptake by
+difference between GPP and ER (GPP − ER), with positive values rep-              plant photosynthesis25–27,55. Peatlands (peat swamps in particular) are
+resenting net CO2 uptake and vice versa. Note here that our estimates            therefore vulnerable to becoming net C sources56,57. Moreover, NEPs
+of wetland C sinks may be overestimated because of the exclusion of              in seasonal or permanent inundated floodplains (26.1 gC m−2 yr−1 with
+CH4 emissions and groundwater-dissolved C losses38,39. Based on the              a 95% CI of −12.2 to 64.4 gC m−2 yr−1) and wet tundras (2.0 gC m−2 yr−1
+compiled global dataset, we built a data-driven upscaling approach               with a 95% CI of −10.7 to 14.7 gC m−2 yr−1) were significantly lower than
+that models spatial and temporal variations in wetland NEP from hydrol-          in marshes and swamps, but not significantly different from peatlands.
+ogy, climate, soil, vegetation and topography. To prescribe wetland
+extent, we used three data products (Supplementary Fig. 1): WAD2M                Key factors controlling wetland NEP
+v.2.0 (13.6 Mkm2), derived from multisensor remote sensing40; GLWD               Based on random forest (RF) analysis, we calculated the relative impor-
+v.2.0 (10.8 Mkm2), compiled from a selection of maps and charts31; and           tance of each predictor variable, including WL, mean annual air tem-
+GIEMS-MC (11.2 Mkm2), generated by integrating GIEMS v.2.0 and GLWD              perature (MAT), mean annual precipitation (MAP), photosynthetically
+v.2.0 (refs. 41,42). By combining the global gridded NEP estimates with          active radiation (PAR), evapotranspiration (ET), normalized differ-
+these wetland extent datasets, we evaluated the spatiotemporal pattern           ence vegetation index (NDVI), enhanced vegetation index (EVI), soil
+of global wetland C sequestration during 2000‒2020.                              organic carbon (SOC), pH, bulk density (BD), clay content (Clay), sand
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                        1862
+Article                                                                                                                                                                                                   https://doi.org/10.1038/s41559-025-02809-1
+
+
+                  a
+                                                        80° N
+
+
+                                                        60° N
+
+
+                                                        40° N
+
+
+                                                        20° N
+
+                                                                       Wetland type
+                                                           0°           Bog
+                                                                          Fen
+
+                                                        20° S             Peat swamp
+                                                                          Marsh
+                                                                          Swamp
+                                                        40° S             Floodplain
+                                                                          Wet tundra
+
+                                                        60° S
+                                                                                            120° W                     60° W                                   0°                              60° E                          120° E
+
+
+                  b                                                                                                                             c
+                                                                                                                                                                    300            (222)                    (21)                 (22)                      (675)
+                                                        200                                                    Mean = 56.4
+                                                                                                               95% CI = 44.0 to 68.8
+                              Number of observations
+
+
+
+
+                                                                                                               n = 934
+                                                                                                                           −16
+                                                                                                               P < 2.2 × 10
+
+
+
+
+                                                                                                                                                NEP (gC m−2 yr−1)
+                                                        150
+                                                                                                                                                                     200
+
+
+                                                        100
+
+                                                                                                                                                                     100
+                                                         50
+
+
+
+                                                          0                                                                                                            0
+                                                               –800             –400              0          400           800          1,200                              This study                Mistch et al.19        Lu et al.43                 Li et al.18
+                                                                                            NEP (gC m−2 yr−1)
+
+                  d                                    1,500
+                                                                                                                                                e 1,500
+                                                                                  F = 4.824, d.f. = 3,930, P = 0.00244                                                                             F = 16.48, d.f. = 6,927, P < 2.0 × 10
+                                                                                                                                                                                                                                             −16
+
+
+
+                                                                                                                 a                a                                                                                     a           a
+                                                  1,000                                                                                                         1,000
+                  NEP (gC m−2 yr−1)
+
+
+
+
+                                                                                             b                                                                                                 b             c
+                                                                                                                                                                                                                                                    b
+                                                        500                                                                                                         500        b
+                                                                          b                                                                                                                                                                                      bc
+                                                          0                                                                                                           0
+
+
+                                                       –500                                                                                                         –500
+
+                                                                       (119)             (397)                 (320)             (98)                                      (283)           (303)            (38)    (157)          (41)            (63)          (49)
+                                           –1,000                                                                                                         –1,000
+                                                                        tic              re  al                ate                al                                        og              en            mp         rsh          mp               ain        dra
+                                                                  Ar
+                                                                      c
+                                                                                       Bo                 pe
+                                                                                                             r                 pic                                         B               F
+                                                                                                                                                                                                       wa          Ma       Sw
+                                                                                                                                                                                                                               a          dp
+                                                                                                                                                                                                                                               l
+                                                                                                                                                                                                                                                           tun
+                                                                                                         m                 Tro                                                                     at
+                                                                                                                                                                                                      s
+                                                                                                                                                                                                                                     Flo
+                                                                                                                                                                                                                                         o             t
+                                                                                                      Te                                                                                   Pe                                                       We
+
+Fig. 1 | Characteristics of global wetland NEP. a, The global distribution of field                                                         annual wetland NEP in different climate zones (d) and wetland types (e). Note
+observations of wetland NEP included in our compiled dataset. The wetland                                                                   here that the definition of floodplain denotes seasonal or permanent inundated
+types are shown as coloured dots. b, Histogram plots exhibiting the annual                                                                  floodplain. For each box plot, individual data points are shown as coloured dots.
+wetland NEP at the global scale. n represents the sample size. The P value means                                                            Centre lines inside the boxes represent means. Box boundaries represent the
+the statistical significance between annual NEP and zero, as determined by using                                                            75th and 25th quantiles, and whisker caps represent the 95th and 5th quantiles.
+a two-sided, one-sample t-test. c, A comparison of global mean annual wetland                                                               Different lowercase letters indicate significant differences at α = 0.05, as
+NEP synthesis from this study with Mitsch et al.19, Lu et al.43 and Li et al.18. The error                                                  determined by using one-way analysis of variance (ANOVA) and least significant
+bars represent the 95% CI. The numbers of wetland sites included in synthesis                                                               difference (LSD) tests. No adjustments were made for multiple comparisons.
+studies are shown in parentheses. The horizontal dashed black line represents                                                               Numbers in parentheses next to the x axis indicate sample sizes (n). F, variance
+the global mean annual wetland NEP derived from this study. d,e, Box plots of                                                               ratio; d.f., degrees of freedom.
+
+
+
+
+content (Sand), silt content (Silt), cation exchange capacity (CEC), base                                                                   model58. When WLs ranged from −30 to +75 cm, wetland NEP across
+saturation (BS) and elevation. Consistent with previous studies18,25–27,                                                                    the globe and extratropical regions was highly sensitive to WLs and
+our findings confirmed that WLs exerted the strongest influence on                                                                          decreased with declining WLs (Extended Data Fig. 3). Outside this range,
+wetland NEP when compared with other biotic and abiotic predic-                                                                             NEP was relatively stable. In tropical wetlands, NEP exhibited a sharp
+tor variables (Fig. 2a). Here, a positive WL value indicates inundation                                                                     reduction as WLs decreased from +15 to −30 cm, but was largely unre-
+above the ground surface and vice versa. Responses of NEP to WLs were                                                                       sponsive when WLs fell below −30 cm or rose above +15 cm. To validate
+nonlinear and detected by the partial dependence plot from the RF                                                                           these patterns, we further analysed the subset database of sites with
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                                                                                                                                        1863
+Article                                                                                                                                                                                  https://doi.org/10.1038/s41559-025-02809-1
+
+
+                 a
+                                                       20                                                                                                                                                      Climate
+                                                                                                                                                                                                               Vegetation
+                                                                                                                                                                                                               Soil
+                            Relative importance (%)
+                                                                                                                                                                                                               Hydrology
+                                                       15
+                                                                                                                                                                                                               Topography
+
+
+
+                                                       10
+
+
+
+
+                                                        5
+
+
+
+
+                                                        0
+
+                                                                WL      ET           T         R             P       VI         C           EV
+                                                                                                                                              I         ay            C         nd       tio
+                                                                                                                                                                                             n         Sil
+                                                                                                                                                                                                           t
+                                                                                                                                                                                                                  pH        BS           BD
+                                                                                  MA         PA        MA         ND          SO                      Cl         CE          Sa       va
+                                                                                                                                                                                   Ele
+
+
+                 b                                                     −16                                                            −16
+                                                                                                                                                                                               P = 0.00175, slope = 4.25
+                                                            P < 2.0 × 10 , slope = 3.91                                   P < 2.0 × 10 , slope = 3.43
+                                            1,200
+                                                                                                                 1,000                                                            1,000
+               NEP (gC m−2 yr−1)
+
+
+
+
+                                                      600                                                                                                                            500
+                                                                                                                  500
+
+                                                                                                                                                                                         0
+                                                        0
+                                                                                                                    0
+                                                                                                                                                                                   –500
+                                              –600                                                               –500
+                                                                                                    Global                                                   Extratropical        –1000                                             Tropical
+
+                                                            –80      –40      0        40      80      120                –80       –40           0    40        80       120                    –80    –40       0      40         80    120
+                                                                             WL (cm)                                                         WL (cm)                                                             WL (cm)
+
+                                                                                                                                      −5
+                                                            P = 8.2 × 10−8, slope = 0.22                                  P = 4.8 × 10 , slope = 0.23                                          P = 0.957
+                                          1,200
+                                                                                                                 1,000                                                            1,000
+               NEP (gC m−2 yr−1)
+
+
+
+
+                                                      600                                                                                                                            500
+                                                                                                                  500
+
+                                                                                                                                                                                         0
+                                                       0
+                                                                                                                    0
+                                                                                                                                                                                   –500
+                                            –600                                                                 –500
+                                                                                                  Global                                                     Extratropical        –1,000                                            Tropical
+
+                                                            0        400       800          1,200      1,600              0           300                  600            900                  400             800          1,200         1,600
+
+                                                                           ET (mm yr−1)                                                    ET (mm yr−1)                                                        ET (mm yr−1)
+
+Fig. 2 | Key factors controlling wetland NEP at the global scale. a, The relative                                                                 black lines represent average predicted values and the corresponding 95% CI,
+importance (%) of variables for predicting annual wetland NEP identified by                                                                       respectively, according to linear mixed-effect modelling. Statistical tests are
+the RF model. b, Linear relationships of annual NEP with WL and ET for global                                                                     conducted as two sided.
+wetlands and wetlands in extratropical and tropical regions. Solid and dashed
+
+
+
+concurrent NEP and WL measurements and found consistent nonlinear                                                                                 (Extended Data Fig. 5). Moreover, enhanced stomatal CO2 uptake dur-
+relationships (Supplementary Fig. 2). Furthermore, we applied the linear                                                                          ing photosynthesis is generally accompanied by higher water loss
+mixed-effect model to determine the overall average sensitivity of NEP                                                                            through transpiration60,61, further reinforcing the positive relationship
+to WLs and then assessed the variation in sensitivity among climate                                                                               between ET and NEP. MAT also exhibited a positive correlation with
+zones and studies59. The overall average sensitivity of NEP to changes                                                                            NEP in extratropical wetlands (P = 0.0039) but had negligible effects
+in WLs was 3.91 gC m−2 yr−1 cm−1 (P < 2.0 × 10−16) (Fig. 2b), aligning with a                                                                     in tropical wetlands (Extended Data Fig. 6). Warmer climate tends
+previous estimate of 4.27 gC m−2 yr−1 cm−1 by Zou et al.25 (Extended Data                                                                         to promote plant growth and extend growing seasons7,62–64, thereby
+Fig. 4). However, Evans et al.26 and Li et al.18 reported stronger responses                                                                      improving C sequestration capacity in extratropical wetlands. PAR
+of wetland NEP to WL variations, probably due to their inclusion of                                                                               likewise linearly increased wetland NEP within the extratropical zone
+human-perturbed wetlands, which tend to exhibit stronger hydrological                                                                             (P = 0.000964) but showed no effect on wetland NEP in the tropics. PAR
+responses. In addition, we found that NEP sensitivity to WLs was greater                                                                          is the portion of the light spectrum utilized by plants for photosynthe-
+in tropical wetlands (4.25 gC m−2 yr−1 cm−1; P = 0.00175) than in extrat-                                                                         sis65. Accelerated net CO2 uptake can be achieved with high PAR and the
+ropical regions (3.43 gC m−2 yr−1 cm−1; P < 2.0 × 10−16), underscoring the                                                                        accompanying enhanced plant photosynthesis7,53.
+heightened vulnerability of tropical wetlands to hydrological variability.
+      Following WL, ET emerged as the second most important deter-                                                                                Spatiotemporal patterns in global wetland C sequestration
+minant of wetland NEP. In extratropical wetlands, ET was positively                                                                               To extend our findings beyond the 934 site–year observations of
+correlated with NEP (P = 4.8 × 10−5), while no significant relationship                                                                           wetland NEP, we built global wetland NEP maps at 0.25° × 0.25° resolu-
+was found in tropical wetlands. This linkage is probably mediated by                                                                              tion using the RF algorithm (Fig. 3a). The RF model outperformed two
+WL, as ET can influence the water availability and hydrology of wetlands                                                                          alternative machine-learning algorithms, that is, extreme gradient
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                                                                                                                  1864
+Article                                                                                                                                                   https://doi.org/10.1038/s41559-025-02809-1
+
+
+                 a                                                                                                                                        b       NEP (gC m−2 yr−1)
+                                                                                                                                                           –200     0   200   400     600
+                                                                                                                                                                                            80
+
+
+                                                                                                                                                                                            60
+
+
+                                                                                                                                                                                            40
+
+
+
+
+                                                                                                                                                                                                   Latitude (°)
+                                                                                                                                                                                            20
+
+
+                                            NEP (gC m−2 yr−1)                                                                                                                               0
+
+                                                              612
+                                                                                                                                                                                            –20
+
+
+                                                                                                                                                                                            –40
+
+                                                            −248
+                                                                                                                                                                                            –60
+
+
+                 c                                                                                    d                                                   e
+                                          1,200                                                                                                                                       South America
+                                                                                                      320
+              Net CO2 uptake (TgC yr−1)
+
+
+
+
+                                                                                                                                                                  30° S−30° N
+                                           900                                                        240
+                                                                                                                                                                                                  Asia
+
+
+                                           600                                                        160
+                                                                                                                                                                                                 Africa
+
+                                           300                                                          80                                                        >30° N
+                                                                                                                                                                                      North America
+                                                                                                                                                                                            Oceania
+                                             0                                                            0                                                       >30° S                     Europe
+                                                       al                                    S                   ca     ia        a    a
+                                                                                                                               ric eric eani
+                                                                                                                                             a        e
+                                                    ob                °N     0°
+                                                                                  N
+                                                                                        0°                    eri     As    Af                    rop
+                                                  Gl           −    30     >3         >3                 m                          m  O c     Eu
+                                                            °S                                     ut hA                      rth
+                                                                                                                                  A
+                                                         30                                      So                        No
+
+Fig. 3 | Spatial pattern of global wetland carbon sequestration. a, Global map                                                area products). For each box plot, individual data points are shown as coloured
+of mean annual wetland NEP between 2000 and 2020 at 0.25° × 0.25° resolution,                                                 dots. Centre lines inside the boxes represent means. Box boundaries represent
+which was already weighted by grid cell areas. b, The latitudinal distribution of                                             the 75th and 25th quantiles, and whisker caps represent the 95th and 5th
+mean annual wetland NEP during 2000‒2020. c,d, Box plots of the mean annual                                                   quantiles. e, Sankey diagram showing wetland C sink flows among three climate
+wetland net CO2 uptake during 2000‒2020 for the globe and across different                                                    zones and six continents.
+climate zones (c), as well as different continents (d) (n = 50 RF models × 3 wetland
+
+
+
+boosting (XGBoost) and support vector machine (SVM) (Supplemen-                                                               are widespread in tropical wetlands (Extended Data Figs. 1b and 2a),
+tary Fig. 3). A new observation-based, global wetland net CO2 uptake                                                          reinforcing their dominant role in global wetland C retention. Fur-
+for 2000‒2020 was estimated at 1,004 (95% CI 961 to 1,047) TgC yr−1                                                           thermore, warmer climate, longer growing season and more diffuse
+(Fig. 3c), accounting for ~30% of global land uptake and offsetting ~10%                                                      light in the tropics hold the capacity to improve wetland C sinks7,51–
+of anthropogenic emissions6. Regions exhibiting high wetland net                                                              53
+                                                                                                                                . Apart from tropical wetlands, wetlands in northern mid-to-high
+CO2 uptake included the Amazon River Basin, Pantanal, Congo River                                                             latitudes (>30° N) also sequestered large amounts of CO2 from the
+Basin, Okavango Delta, combined basins of Ganges, Brahmaputra and                                                             atmosphere70,71, accounting for 27% of global net CO2 uptake. At the
+Meghna, and the Mississippi River Basin. These hotspots are charac-                                                           continental scale, South America, Asia and Africa emerged as the top
+terized by high wetland WLs and extensive wetland areas (Extended                                                             three contributors to wetland C sequestration, collectively account-
+Data Fig. 2a and Supplementary Fig. 1). By contrast, some peatlands                                                           ing for 79% of the global total (Fig. 3d). It should be noted that much of
+located in tropical and boreal zones acted as net CO2 sources (Fig. 3b),                                                      this uptake originated from tropical regions within these continents
+particularly in Southeast Asia and West Siberia Lowlands. Our dataset                                                         (Fig. 3e), where large wetland extents and consistently high WLs were
+revealed that these peatlands commonly exhibited relatively low WLs                                                           prevalent (Extended Data Fig. 2a and Supplementary Fig. 1).
+(Extended Data Fig. 2a), which could facilitate aerobic decomposition                                                               The analysis of the rate of change of NEP over time elucidated
+of C-rich surface soils and subsequent CO2 release28–30. Tropical peat-                                                       that 49% and 51% of global wetland grid cells showed increasing and
+lands in Southeast Asia have also been threatened by frequent wild-                                                           decreasing trends, respectively (Fig. 4a). Sharp declines in wetland net
+fires exacerbated by El Niño Southern Oscillation (ENSO) droughts                                                             CO2 uptake rates were witnessed mainly in Amazon River Basin, Suma-
+and are therefore at great risk of becoming CO2 sources30,55. Similarly,                                                      tra and Indochinese Peninsula, where WLs and precipitation typically
+C stored in West Siberia Lowland peatlands is increasingly threatened                                                         displayed decreasing trends (Extended Data Fig. 2b and Supplementary
+by permafrost thaw and climate warming, processes that accelerate                                                             Fig. 4). Over the past two decades, the Amazon has experienced frequent
+decomposition and CO2 emissions66–69.                                                                                         and severe droughts due to climate change (for example, warming
+     Across latitudes, higher values of wetland NEP were concentrated                                                         anomaly of Tropical North Atlantic and ENSO). These droughts could
+in the tropics (30° S‒30° N), with a net CO2 uptake of 700 (95% CI 672                                                        favour wildfire occurrence and tree mortality, consequently under-
+to 728) TgC yr−1, accounting for 70% of global wetland C sequestra-                                                           mining the region’s C sink capacity72–75. In Sumatra and Indochinese
+tion (Fig. 3c). In line with our findings, Mitsch et al.19 reported that                                                      Peninsula wetlands, their C sink functions were strongly threatened
+tropical wetlands served as the largest net C sink, representing 67%                                                          by extensive peat oxidation and quasi-periodic ENSO droughts30,55,76,77.
+of global wetland C sinks. Based on the compiled dataset, high WLs                                                            By contrast, the marked enhancement of wetland C sequestration was
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                                                                                  1865
+ Article                                                                                                                                                                            https://doi.org/10.1038/s41559-025-02809-1
+
+
+        b                                                                Global                 c                     >30° N                      d                      30° S−30° N                 e                      >30° S
+                                          1,100
+Net CO2 uptake (TgC yr−1)
+
+
+
+                                                                                                300                                                                                                  40
+                                                                                                                                                  760
+                                    1,050
+                                                                                                280                                               720                                                35
+                                   1,000
+
+                                                                                                260                                               680                                                30
+                                             950
+
+                                                                                                                                                  640                                                25
+                                            900           Slope = 0.09                          240    Slope = 0.71                                          Slope = −0.49                                  Slope = −0.12
+
+                                                         2000   2005      2010    2015   2020         2000     2005    2010      2015   2020                2000    2005     2010    2015     2020         2000   2005       2010     2015   2020
+
+
+                                                                                                a
+        f                                                                 Asia                                                                                                                       g              North America
+              Net CO2 uptake (TgC yr−1)
+
+
+
+
+                                                                                                                                                                                                     150
+                                                   320
+
+                                                                                                                                                                                                     140
+                                              300
+
+                                                                                                                                                                                                     130
+                                                   280
+
+                                                                                                                                                                                                     120
+                                               260        Slope = 0.32                                                                                                                                      Slope = 0.45
+
+                                                         2000   2005      2010    2015   2020                                                                                                              2000   2005       2010     2015   2020
+                                                                                                        −7.0      −0.5         −0.1      0            0.1          0.5       7.0       22.0
+                                                                                                                      Trend in NEP during 2000−2020 (gC m−2 yr−2)
+
+        h                                                                Europe                 i                     Africa                      j                      South America               k                      Oceania
+                                                                                                220                                               340
+                       Net CO2 uptake (TgC yr−1)
+
+
+
+
+                                                   45                                                                                                                                                54
+                                                                                                                                                  320
+                                                                                                200
+                                                   40                                                                                                                                                48
+                                                                                                                                                  300
+
+                                                   35                                           180                                                                                                  42
+                                                                                                                                                  280
+                                                   30                                                                                                                                                36
+                                                          Slope = 0.19                                 Slope = 0.51                                          Slope = −1.37                                  Slope = −0.01
+                                                                                                160                                               260
+                                                         2000   2005      2010    2015   2020         2000     2005    2010      2015   2020                2000    2005     2010    2015     2020         2000   2005       2010     2015   2020
+
+ Fig. 4 | Temporal patterns in global and regional wetland carbon                                                                              tendency lines fitted by linear regression models. f–k, Temporal variations
+ sequestration. a, A global explicit map of temporal trends in annual wetland                                                                  in annual wetland net CO2 uptake for Asia (f), North America (g), Europe (h),
+ NEP between 2000 and 2020 at 0.25° × 0.25° resolution, which was already                                                                      Africa (i), South America (j) and Oceania (k) during 2000‒2020. The shadow
+ weighted by grid cell areas. b–e, Temporal changes in annual wetland net CO2                                                                  areas represent the 95% CI based on 50 RF models and 3 wetland area products
+ uptake for the globe (b), >30° N (c), 30° S‒30° N (d) and >30° S (e) over the period                                                          (n = 50 × 3). Dashed coloured lines represent the tendency lines fitted by linear
+ 2000‒2020. The shadow areas represent the 95% CI based on 50 RF models                                                                        regression models.
+ and 3 wetland area products (n = 50 × 3). Dashed coloured lines represent the
+
+
+
+ primarily distributed in Eastern China, the Eastern USA, Eastern Europe,                                                                      demonstrated that wetland water storage increased in the North-
+ Hudson Bay Lowland, Congo River Basin, Borneo and Moxos Plains,                                                                               ern Hemisphere. In addition, regional climate warming, prolonged
+ where upward trends in WLs and precipitation were usually observed.                                                                           growing seasons and boosted ET have been observed in northern
+ In Eastern China, the Eastern USA, Eastern Europe and Hudson Bay                                                                              mid-to-high latitudes7,21,78,79 (Supplementary Fig. 5), all of which sup-
+ Lowland, additional drivers included climate warming, extended grow-                                                                          port the strengthening of wetland C sinks in this region. However,
+ ing seasons and enhanced ET7,21,78,79 (Supplementary Fig. 5), all of which                                                                    this increasing trend was almost entirely offset by decreasing wetland
+ favour higher NEP. In the Congo River Basin, wetland water storage                                                                            C sinks in the tropics and southern mid-to-high latitudes (>30° S)
+ increased since 2002 (ref. 80), providing more humid conditions that                                                                          (Fig. 4d,e). As discussed above, Amazon River Basin, Sumatra and
+ support C sequestration. Field monitoring has also confirmed that                                                                             Indochinese Peninsula were the hotspots for wetland NEP decline,
+ the C sink in Congo River Basin slightly increased in the three decades                                                                       collectively shaping the downward trend in tropical wetland net CO2
+ leading up to 2015, in contrast to the long-term decline observed in                                                                          uptake (−0.49 TgC yr−2). Across the continents, Africa showed the fast-
+ Amazon River Basin75. In Borneo, rising wetland NEP was linked to the                                                                         est increase in wetland C sequestration (0.51 TgC yr−2; Fig. 4i), followed
+ strong resilience of vegetation following environmental disturbance,                                                                          by North America (0.45 TgC yr−2; Fig. 4g), Asia (0.32 TgC yr−2; Fig. 4f) and
+ with this resilience far exceeding that observed in both Amazon River                                                                         Europe (0.19 TgC yr−2; Fig. 4h). These increases were largely driven by
+ and Congo River basins81.                                                                                                                     increasing precipitation and WL in these four continents. Furthermore,
+      Despite widespread regional changes in NEP, the annual net                                                                               wetlands in North America, Asia and Europe are predominantly located
+ CO2 uptake of global wetlands was relatively stable over the period                                                                           in northern mid-to-high latitudes, where climate warming, extended
+ 2000‒2020, with a slight upward trend of 0.09 TgC yr‒2 (Fig. 4b).                                                                             growing seasons and enhancement of ET are capable of boosting wet-
+ Among climate zones, wetlands in northern mid-to-high latitudes                                                                               land C sink activity. By contrast, a sharp decline in wetland C sinks was
+ exhibited a notable increasing CO2 uptake rate of 0.71 TgC yr−2 (Fig. 4c),                                                                    observed in South America (−1.37 TgC yr−2; Fig. 4j), probably driven
+ coinciding with rising precipitation and WL in this region (Extended                                                                          by decreases in precipitation and WL, which strongly weakened the
+ Data Fig. 2b and Supplementary Fig. 4). Consistently, Peng et al.82                                                                           region’s relatively high baseline NEP.
+
+
+ Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                                                                                                            1866
+Article                                                                                              https://doi.org/10.1038/s41559-025-02809-1
+
+      More notably, global wetland net CO2 uptake showed contrasting        multisensor remote sensing, and has successfully identified wetlands
+temporal variations between 2000–2005 and 2006‒2020 (Fig. 4b). Dur-         under dense canopies, excluding permanent water bodies, coastal
+ing 2000‒2005, wetland C sink declines were widespread, especially in       wetlands, rice paddies and drained wetlands40 (WAD2M v.2.0 cov-
+Amazon River Basin and Southeast Asia (Extended Data Fig. 7a). Due to       ers the period 2000‒2020 on a monthly scale at 0.25° × 0.25° spatial
+the warming anomaly of Tropical North Atlantic, Amazon River Basin          resolution); (2) GLWD v.2.0 (10.8 Mkm2), compiled from a selection of
+experienced a mega-drought in 2005 (ref. 74). Moreover, results from        maps and charts, represents a static wetland map at 0.0041° × 0.0041°
+climate analysis for the period 1995‒2005 revealed a steady decline in      spatial resolution31 (GLWD v.2.0 classes 8 to 27 and 32 were selected
+plant water availability over Amazon River Basin72. This drying climate     and aggregated to 0.25° × 0.25° grid cells in our study, excluding
+caused a sharp drop in wetland net CO2 uptake. In Southeast Asia,           open waters, coastal wetlands, paddy fields and drained wetlands);
+quasi-periodic ENSO droughts were the main contributor to attenuate         (3) GIEMS-MC (11.2 Mkm2), derived from the combination of GIEMS
+wetland C sink activity between 2000 and 2005. During 2006‒2020,            v.2.0 and GLWD v.2.0, included inundated and saturated wetlands
+Amazon River Basin, Sumatra and Indochinese Peninsula continued             and peatlands, excluding open water and paddy fields41,42. To ensure
+to see wetland C sink declines (Extended Data Fig. 7b), primarily due       comparability among the three wetland maps, we further subtracted
+to post-drought vegetation mortality and reoccurrence of drought            coastal wetlands from GIEMS-MC by using GLWD v.2.0. GIEMS-MC was
+events72,74. However, these losses were outweighed by increases in          developed at 0.25° × 0.25° spatial resolution at a monthly time step for
+wetland C sinks in Eastern China, the Eastern USA, Eastern Europe,          1920‒2020. These three products diverge in both the extent of global
+Hudson Bay Lowland, Congo River Basin, Borneo, Pampas and so on,            wetland area by 2.8 Mkm2 (10.8‒13.6 Mkm2; 24% of the average) and
+resulting in an overall uptrend in global annual wetland net CO2 uptake     their geographic distribution (Supplementary Fig. 1) and have been
+throughout 2006‒2020.                                                       adopted in the wetland C sink modelling framework to account for
+      Based on the estimates from Friedlingstein et al.6, the growth        uncertainties in global wetland area estimates.
+rates of terrestrial C sink decreased from 0.075 PgC yr−2 (P = 0.05)
+during 1980‒1999 to 0.037 PgC yr−2 (P = 0.18) between 2000 and 2020         Compilation of the global wetland NEP database
+(Extended Data Fig. 8a). The temporal trajectory of global wetland net      The data used in our study were mainly collected by searching for
+CO2 uptake in this period exhibited a positive correlation with terres-     literature studying wetland NEP through the Web of Science, Google
+trial C sinks and can explain 33% of temporal variations in terrestrial C   Scholar and China National Knowledge Infrastructure in the period
+sinks (P = 0.008; Extended Data Fig. 8b).                                   1990‒2024. The query terms for the literature search included ‘carbon
+                                                                            dioxide OR CO2 OR net ecosystem exchange OR NEE OR net ecosystem
+Limitations and uncertainties                                               production OR NEP OR carbon OR primary production OR respiration
+Although this study compiled a comprehensive global wetland NEP             OR greenhouse gas OR GHG OR global warming potential OR GWP’
+dataset and provided valuable insights into spatiotemporal patterns of      AND ‘wetland OR inland wetland OR freshwater wetland OR peatland
+wetland C sequestration, several limitations and uncertainties must be      OR bog OR fen OR peat swamp OR mineral soil wetland OR marsh OR
+acknowledged. First, while the dataset includes diverse climate zones       swamp OR floodplain OR tundra’. To avoid bias during publication
+and wetland types, most NEP measurements were concentrated in               selection, the following criteria were used to screen the literature: (1)
+boreal and temperate regions. More field-based NEP data are urgently        only studies using the eddy covariance method and chamber-based
+needed from Arctic and tropical zones, particularly for underrepre-         method were selected; (2) studies using the chamber-based method
+sented wetland types such as peat swamps, swamps, seasonally or             were required to have at least three replicates; (3) field observations
+permanently inundated floodplains and wet tundras. Second, wet-             with experimental manipulation (for example, warming and fertiliza-
+land CH4 emissions have been previously estimated at 149 TgCH4 yr−1         tion) were excluded; (4) in situ monitoring need to have been carried out
+(ref. 38), which directly weaken wetland C sinks by ~11% compared with      for at least one growing season (wetland sites that reported CO2 fluxes
+net CO2 uptake alone. Dissolved C losses through water export are also      for the growing season only were located in northern high-latitude
+an important component of the wetland C budget, with large amounts          zones; hence, we assigned non-growing season CO2 fluxes using the
+of C transferred from freshwater wetlands to the ocean39. Thus, wetland     estimates from Natali et al.84); (5) multiyear observations within the
+C sinks might be overestimated by our study owing to the exclusion of       same site were considered independent; (6) sites from open water,
+CH4 emissions and dissolved C losses, which should be incorporated in       paddy fields, coastal wetlands and drained wetlands were excluded;
+future global wetland C budget assessments. Finally, our study focused      (7) floodplains that have never been inundated were excluded. Detailed
+on freshwater wetlands, and did not account for net CO2 uptake from         site-specific data such as latitude, longitude, measurement years, WLs,
+other aquatic ecosystems such as lakes, rivers, reservoirs, aquaculture     climate conditions, soil properties, plant variables and elevation were
+ponds, mangroves, saltmarshes, tidal freshwater wetlands and so on.         also extracted from the original publications. Data presented as figures
+The C dynamics of these ecosystems warrant further investigation.           and plots were identified using Web Plot Digitizer (version 3.11; https://
+                                                                            automeris.io/WebPlotDigitizer). Wetland NEP and predictor variables
+Methods                                                                     collected from peer-reviewed publications were aggregated on an
+Wetland definition                                                          annual basis. In addition, we also extracted data from the FLUXNET data-
+Our definition of wetlands encompassed peatlands (bogs, fens and            base, which measures the fluxes of carbon, water and energy between
+peat swamps), mineral soil wetlands (marshes and swamps), seasonal          the biosphere and atmosphere based on the eddy covariance method
+or permanent inundated floodplains and wet tundras (Supplemen-              (https://fluxnet.org/). Database descriptions (for example, existing
+tary Table 1). We excluded all open waters (for example, lakes, rivers,     sites and gap filling) of the FLUXNET are described in detail by Pastorello
+ponds and reservoirs), coastal wetlands (for example, mangroves, salt-      et al.85. We extracted wetland NEP and ancillary environmental variables
+marshes, seagrasses and tidal freshwater wetlands), drained wetlands        (for example, WL) at each site and aggregated data at the annual scale.
+(that is, wetlands drained for other land use types) and paddy fields.      In total, our compiled database included 934 site–year records of wet-
+We defined wetland categories on the basis of a methodological rather       land NEP observations collected from 258 peer-reviewed publications
+than a priori definition or typology, that is, our operational wetland      and the FLUXNET database, with observed years ranging from 1990
+definition is inherited from the wetland maps we used83. Global wet-        to 2023. These sites were distributed from 54.97° S to 81.80° N and
+land area distributions were determined on the basis of the long-term       from 157.41° W to 175.55° E, covering diverse climate zones and wetland
+maximum inundated area fraction (static wetland maps) from the              types (Fig. 1). In addition, from our compiled dataset, we have screened
+following three sources: (1) WAD2M v.2.0 (13.6 Mkm2), produced from         out 663 paired observations that simultaneously measured NEP and
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                 1867
+Article                                                                                               https://doi.org/10.1038/s41559-025-02809-1
+
+WLs (Supplementary Fig. 6), of which the WL data were subsequently           are shown in Supplementary Figs. 8‒15. We resampled all the environ-
+included in the wetland WL modelling framework.                              mental layers into 0.25° × 0.25° resolution before further analysis.
+
+Compilation of the global wetland WL database                                Development of machine-learning models
+Data were obtained by searching for peer-reviewed articles studying          We randomly selected 80% of the samples from our compiled
+wetland hydrological conditions that were published before 2024 using        global-scale in situ database as the training set and the remaining 20%
+the Web of Science, Google Scholar and China National Knowledge              as the test set to diagnose the generalizability of machine-learning
+Infrastructure; the keywords ‘water level OR water table OR water depth      models as in ref. 91. We used a ‘grid search’ procedure on the entire train-
+OR groundwater OR hydrology’ AND ‘wetland OR inland wetland OR               ing set to explore the parameter spaces of various machine-learning
+freshwater wetland OR peatland OR bog OR fen OR peat swamp OR                algorithms92, including RF, XGBoost and SVM. We performed the ‘hold-
+mineral soil wetland OR marsh OR swamp OR floodplain OR tundra’              out’ method, in which the model was trained with 70% of the samples in
+were used in the searches. We utilized the following seven criteria to       the training set and validated on the remaining 30% (ref. 93). We used
+select publications: (1) the study was carried out in field conditions;      the training set to determine the best machine-learning algorithm
+(2) field observations with water-table manipulation experiments             and set of hyperparameters. We utilized the ‘mlr3verse’ package in R
+were excluded; (3) data simulated by the hydrological model were             software to train machine-learning models. To evaluate the predictive
+excluded; (4) the duration of the study was at least 1 year; (5) multiyear   performance of machine-learning models, we used the root mean
+observations within the same site were considered independent; (6)           square error (RMSE) and the coefficients of determination (R2) values
+sites from open water, paddy fields, coastal wetlands and drained            produced on the test set as the metrics.
+wetlands were excluded; (7) floodplains that have never been inun-
+dated were excluded. Data on WLs, latitude, longitude, measurement           Global extrapolation of WL and NEP
+years, climate conditions, soil properties, plant variables and eleva-       To determine the spatiotemporal variations in wetland WLs, we used
+tion were extracted from the eligible literature. The software Web           the site-level wetland WL as the dependent variable and three climate
+Plot Digitizer (version 3.11) was used to extract data from the graph.       variables (MAT, MAP and PAR), five hydrological variables (fw, ET,
+Finally, we compiled 2,295 site–year records of field observations of        Canopy intercept, Runoff, and WTD Fan), four soil physical variables
+wetland WLs from 606 peer-reviewed publications, with observed               (BD, Clay, Sand and Silt), two plant variables (NDVI and EVI), two topo-
+years ranging from 1984 to 2023. Our compiled wetland WL dataset             graphic variables (elevation and CTI), and Wetland Loss as candidate
+used in situ observations from 642 wetland sites across the globe that       independent variables. Of these, fw, PAR, ET and MAT were the four
+encompass various climate zones and wetland types (Extended Data             most important drivers controlling wetland WL variations (Extended
+Fig. 1). Of these, the vast majority of compiled WL data was measured        Data Fig. 5). To prevent the overfitting of machine-learning models,
+manually or monitored through water-level sensors (for example, pres-        the final predictor variables were selected using the recursive feature
+sure transducer) with integrated data loggers and then corrected to the      elimination method. This approach can effectively reduce the number
+distance from the ground surface (positive data records denote WLs           of predictor variables while maintaining the high predictive power of
+above the surface, and negative data records represent WLs below the         machine-learning models94. Results of the recursive feature elimina-
+surface). Sampling frequency largely depended on the type of wetland         tion method can be seen in Supplementary Fig. 16 and Supplementary
+and associated environmental conditions, as well as sampling methods.        Table 3. Initially, we assessed the performance of all three different
+Common sampling frequency included daily, weekly or semi-monthly             machine-learning models (that is, RF, XGBoost and SVM) using the
+intervals. Field measurements of WLs need to have been carried out for       final predictor variables screened by the recursive feature elimina-
+at least 1 year, to fully capture the seasonality of WL variations. Wet-     tion method. The results showed that the RF model performed best
+land WLs collected from peer-reviewed papers were aggregated on an           among all machine-learning models (Supplementary Fig. 7). In the
+annual basis. The annual mean WLs for the 2,295 observations ranged          model-testing phase, the R2 and RMSE values for the RF model were
+from approximately −100 to +100 cm, with the majority of observa-            0.82 and 10.85, respectively. RF model is capable of accounting for
+tions between −50 and +30 cm (Supplementary Fig. 7), reflecting the          nonlinear effects and complex interactions between predictors95.
+water-level characteristics of global wetlands25,36.                         Moreover, the RF model is well suited for handling small sample sizes
+                                                                             and high-dimensional feature spaces without overfitting92. To map
+Global gridded environmental datasets                                        global wetland WLs at 0.25° × 0.25° resolution during 2000‒2020,
+We used global gridded datasets representing climate, hydrol-                we combined the training and test set to retrain the final RF model,
+ogy, topography, soil, plant and human disturbance to train the              using the same set of hyperparameters determined in the process of
+machine-learning models (Supplementary Table 2). Specifically,               RF model development. Among the list of 17 candidate predictor vari-
+MAT and MAP were obtained from the CRU TS v4.05 (ref. 86). PAR               ables, EVI, BD and Silt were excluded from training the final RF model
+and ET were acquired from the study by Tang et al.52 and Feng et al.87,      (Supplementary Table 3). To obtain the uncertainty associated with
+respectively. The elevation dataset was taken from WorldClim88.              predictions, we first repeated the RF model development 50 times to
+Global gridded datasets of soil properties, including SOC, pH, BD, Clay,     derive a series of hyperparameter sets. Next, we trained 50 RF models
+Sand, Silt, CEC and BS, were all collected from the SoilGRIDS database       on all available samples using the 50 sets of hyperparameters. The aver-
+(http://www.isric.org/explore/soilgrids) and the Land-Atmosphere             age predicted map across 50 RF models was used as the final product,
+Interaction Research Group at Sun Yat-sen University (http://global-         and the 95% CI was then considered as the indicator of prediction
+change.bnu.edu.cm/research/soilw). Canopy intercept and Runoff               uncertainty. Uncertainties in the mapped mean annual wetland WLs
+were obtained from the GLDAS-Noah v.2.1 dataset89. In terms of plant         are shown in Supplementary Fig. 17. To derive a global explicit map of
+variables, NDVI and EVI were derived from the MOD13C2 product                temporal trend in annual wetland WLs between 2000 and 2020, we fur-
+(https://earthdata.nasa.gov/). Inundation fraction (fw) was extracted        ther used all spatial grid cells with 21 years of WLs and calculated slopes
+from the WAD2M v.2.0 dataset generated by Zhang et al.40 and the             of wetland WLs over time using a separate linear regression model for
+GIEMS-MC dataset produced by Bernard et al.41. Wetland Loss was avail-       each grid cell96, and the 95% CI of the slope within each grid cell as the
+able from the study by Fluet-Chouinard et al.83. Compound topographic        uncertainty of temporal trends. Uncertainties in the mapped temporal
+index (CTI) and terrestrial groundwater table depth (WTD Fan) were           trends are shown in Supplementary Fig. 18. The global wetland WL
+obtained from the study by Marthews et al.90 and Fan et al.36, respec-       dataset created by this study was subsequently used to simulate the
+tively. The spatial patterns of all global gridded environmental datasets    wetland NEP variations.
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                   1868
+Article                                                                                             https://doi.org/10.1038/s41559-025-02809-1
+
+      To upscale field observations of wetland NEP to the global scale,    PAR originated from https://doi.org/10.11888/RemoteSen.tpdc.271909.
+the site-level wetland NEP was treated as the dependent variable and       ET was extracted from https://doi.org/10.57760/sciencedb.10519.
+three climate variables (MAT, MAP and PAR), two hydrological vari-         Elevation was taken from https://worldclim.org/data/worldclim21.
+ables (WL and ET), eight soil physicochemical variables (SOC, pH, BD,      html. Global gridded datasets of soil properties, including SOC, pH,
+Clay, Sand, Silt, CEC and BS), two plant variables (NDVI and EVI) and      BD, Clay, Sand, Silt, CEC and BS, were all collected from the Soil-
+elevation were considered as the candidate independent variables. We       GRIDS database (http://www.isric.org/explore/soilgrids) and the
+used the recursive feature elimination method to reduce the number         Land-Atmosphere Interaction Research Group at Sun Yat-sen Uni-
+of predictor variables, but still ensured a high predictive power of       versity (http://globalchange.bnu.edu.cm/research/soilw). Canopy
+machine-learning models. Results of the recursive feature elimina-         intercept and Runoff were obtained from https://search.earthdata.
+tion method are shown in Supplementary Fig. 19 and Supplementary           nasa.gov/search?q=GLDAS_NOAH025_M_2.1. NDVI and EVI were
+Table 4. Utilizing the final predictor variables selected by the recur-    derived from https://earthdata.nasa.gov/. Wetland Loss data are avail-
+sive feature elimination method, we evaluated the performance of           able via Zenodo at https://doi.org/10.5281/zenodo.7293597 (ref. 102).
+three machine-learning models, that is, RF, XGBoost and SVM. Among         CTI can be downloaded at https://doi.org/10.5066/F7S180ZP. WTD
+them, the RF model outperformed the other two methods, with an R2          Fan was obtained from http://thredds-gfnl.usc.es/thredds/catalog/
+and RMSE of 0.84 and 86.36, respectively (Supplementary Fig. 3). We        GLOBALWTDFTP/annualmeans/catalog.html. Our compiled data-
+combined the training and test set to retrain the final RF model using     sets of wetland NEP and WL are available via Figshare at https://doi.
+the same set of hyperparameters derived from the RF model develop-         org/10.6084/m9.figshare.26825293 (ref. 103). Source data are provided
+ment, to map global wetland NEP with a 0.25° × 0.25° resolution during     with this paper.
+2000‒2020. Among the list of 16 candidate predictor variables, EVI and
+BD were excluded from training the final RF model (Supplementary           Code availability
+Table 4). Furthermore, we repeated the RF model development 50             Code used to reproduce the findings of this work can be obtained at
+times to determine a series of hyperparameter sets, which were sub-        https://doi.org/10.24433/CO.7249484.v1.
+sequently used to train 50 RF models on all available samples. Notably,
+annual wetland C sequestration was estimated by multiplying annual         References
+wetland NEP by the annual wetland area at 0.25° × 0.25° resolution.        1.  IPCC Climate Change 2021: The Physical Science Basis.
+Accordingly, our wetland C sink modelling framework also accounted             Contribution of Working Group I to the Sixth Assessment
+for uncertainties in global wetland area estimates. In total, we had 150       Report of the Intergovernmental Panel on Climate Change (eds
+(50 RF models × 3 wetland area products) ensemble members and                  Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021).
+treated the average predicted map as the final product. The 95% CI was     2. Prentice, I. C. et al. The carbon cycle and atmospheric
+then considered as the indicator of prediction uncertainty. Uncertain-         carbon dioxide. in Climate Change 2001: The Scientific Basis.
+ties in the mapped mean annual wetland C sequestration are shown in            Contribution of Working Group I to the Third Assessment Report of the
+Supplementary Fig. 20. Moreover, based on all spatial grid cells with          Intergovernmental Panel on Climate Change (eds Houghton, J. T. et al.)
+21 years of wetland NEP, we calculated slopes of NEP over time using           183–237 (Cambridge Univ. Press, 2001).
+a separate linear regression model for each grid cell to construct a       3. Lan, X., Tans, P. & Thoning, K. W. Trends in Atmospheric Carbon
+global explicit map of temporal trend in annual wetland NEP during             Dioxide (National Oceanic and Atmospheric Administration,
+2000‒2020, and the 95% CI of the slope within each grid cell was used          Global Monitoring Laboratory, 2024); https://doi.org/10.15138/
+as the uncertainty of temporal trends. Uncertainties in the mapped             9N0H-ZH07
+temporal trends are shown in Supplementary Fig. 21.                        4. Canadell, J. G. et al. Contributions to accelerating atmospheric
+                                                                               CO2 growth from economic activity, carbon intensity, and
+Statistical analyses                                                           efficiency of natural sinks. Proc. Natl Acad. Sci. USA 104,
+All statistical analyses were performed using R v.4.1.0 (ref. 97). Data        18866–18870 (2007).
+were examined for normality and homogeneity and log-transformed            5. Falkowski, P. et al. The global carbon cycle: a test of our
+as necessary to satisfy the assumptions of normality. One-way analysis         knowledge of earth as a system. Science 290, 291–296
+of variance and least significant difference multiple comparisons were         (2000).
+used to test the differences in WL and NEP among climate zones and         6. Friedlingstein, P. et al. Global Carbon Budget 2023. Earth. Syst.
+wetland types through the package ‘agricolae’. By using the R package          Sci. Data 15, 5301–5369 (2023).
+‘caret’, we conducted the recursive feature elimination to prevent the     7. Ruehr, S. et al. Evidence and attribution of the enhanced land
+overfitting of machine-learning models. The relative importance of each        carbon sink. Nat. Rev. Earth Environ. 4, 518–534 (2023).
+predictor variable was determined by the RF model using the ‘impurity’     8. Chen, C., Riley, W. J., Prentice, I. C. & Keenan, T. F. CO2 fertilization
+method98. The nonlinear relationship between NEP and WL was detected           of terrestrial photosynthesis inferred from site to global scales.
+using the ‘partialplot’ function in the R package ‘randomForest’. Linear       Proc. Natl Acad. Sci. USA 119, e2115627119 (2022).
+mixed-effect models were performed with the ‘lme4’ package of R.           9. Galloway, J. N., Bleeker, A. & Erisman, J. W. The human creation
+                                                                               and use of reactive nitrogen: a global and regional perspective.
+Reporting summary                                                              Annu. Rev. Environ. Resour. 46, 255–288 (2021).
+Further information on research design is available in the Nature          10. Piao, S. et al. Spatiotemporal patterns of terrestrial carbon cycle
+Portfolio Reporting Summary linked to this article.                            during the 20th century. Glob. Biogeochem. Cycle 23, GB4026
+                                                                               (2009).
+Data availability                                                          11. Piao, S. et al. Plant phenology and global climate change: current
+The WAD2M v.2.0 dataset is available via Zenodo at https://doi.org/            progresses and challenges. Glob. Change Biol. 25, 1922–1940
+10.5281/zenodo.3998453 (ref. 99). The GIEMS-MC dataset is available            (2019).
+via Zenodo at https://doi.org/10.5281/zenodo.13919644 (ref. 100). The      12. Penuelas, J. Decreasing efficiency and slowdown of the increase
+GLWD v.2.0 dataset is available via Figshare at https://figshare.com/s/        in terrestrial carbon-sink activity. One Earth 6, 591–594
+e40017f69f41f80d50df (ref. 101). The FLUXNET database is available             (2023).
+at https://fluxnet.org/data/fluxnet2015-dataset/. MAT and MAP were         13. Wang, S. et al. Recent global decline of CO2 fertilization effects on
+obtained from https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.05/.             vegetation photosynthesis. Science 370, 1295–1300 (2020).
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                 1869
+Article                                                                                               https://doi.org/10.1038/s41559-025-02809-1
+
+14. Davidson, N. C., Fluet-Chouinard, E. & Finlayson, C. M. Global           39. Pilla, R. M. et al. Anthropogenically driven climate and landscape
+    extent and distribution of wetlands: trends and issues. Mar.                 change effects on inland water carbon dynamics: what have we
+    Freshw. Res. 69, 620–627 (2018).                                             learned and where are we going? Glob. Change Biol. 28,
+15. Lal, R. Carbon sequestration. Philos. Trans. R. Soc. B 363, 815–830          5601–5629 (2022).
+    (2008).                                                                  40. Zhang, Z. et al. Development of the global dataset of Wetland
+16. Poulter, B. et al. in Wetland Carbon and Environmental Management            Area and Dynamics for Methane Modeling (WAD2M). Earth. Syst.
+    (eds Krauss, K. W., Zhu, Z. & Stagg, C. L.) 1‒20 (Wiley, 2021).              Sci. Data 13, 2001–2023 (2021).
+17. Xiao, D., Deng, L., Kim, D. G., Huang, C. & Tian, K. Carbon budgets      41. Bernard, J. et al. The GIEMS-MethaneCentric database: a dynamic
+    of wetland ecosystems in China. Glob. Change Biol. 25,                       and comprehensive global product of methane-emitting aquatic
+    2061–2076 (2019).                                                            areas. Earth. Syst. Sci. Data Discuss. 2024, 1–35 (2024).
+18. Li, J. et al. Convergence of carbon sink magnitude and water table       42. Prigent, C., Jimenez, C. & Bousquet, P. Satellite‐derived global
+    depth in global wetlands. Ecol. Lett. 26, 797–804 (2023).                    surface water extent and dynamics over the last 25 years
+19. Mitsch, W. J. et al. Wetlands, carbon, and climate change. Landsc.           (GIEMS‐2). J. Geophys. Res. Atmos. 125, e2019JD030711 (2020).
+    Ecol. 28, 583–597 (2012).                                                43. Lu, W. et al. Contrasting ecosystem CO2 fluxes of inland and
+20. Mitsch, W. J. & Gosselink, J. G. Wetlands 5th edn (Wiley, 2015).             coastal wetlands: a meta-analysis of eddy covariance data. Glob.
+21. Bao, T., Jia, G. & Xu, X. Weakening greenhouse gas sink of pristine          Change Biol. 23, 1180–1198 (2017).
+    wetlands under warming. Nat. Clim. Chang. 13, 462–469 (2023).            44. Maas, C. J. M. & Hox, J. J. Sufficient sample sizes for multilevel
+22. Wang, L. et al. Net exchanges of CO2, CH4 and N2O between                    modeling. Methodology 1, 86–92 (2005).
+    marshland and the atmosphere in Northeast China as influenced            45. Rocha, A. V. & Goulden, M. L. Why is marsh productivity so high?
+    by multiple global environmental changes. Atmos. Environ. 63,                New insights from eddy covariance and biomass measurements
+    77–85 (2012).                                                                in a Typha marsh. Agric. For. Meteorol. 149, 159–168 (2009).
+23. Wang, H. et al. Molecular mechanisms of water table lowering and         46. Li, J. et al. Radiative forcing of methane emission completely
+    nitrogen deposition in affecting greenhouse gas emissions from a             offsets net carbon dioxide uptake in a temperate freshwater
+    Tibetan alpine wetland. Glob. Change Biol. 23, 815–829 (2017).               marsh from the present to future. Agric. For. Meteorol. 346,
+24. Mitsch, W. J. et al. Tropical wetlands: seasonal hydrologic pulsing,         109889 (2024).
+    carbon sequestration, and methane emissions. Wetl. Ecol. Manag.          47. Raymond, P. A. et al. Global carbon dioxide emissions from inland
+    18, 573–586 (2010).                                                          waters. Nature 503, 355–359 (2013).
+25. Zou, J. et al. Rewetting global wetlands effectively reduces major       48. Lauerwald, R., Laruelle, G. G., Hartmann, J., Ciais, P. & Regnier, P. A.
+    greenhouse gas emissions. Nat. Geosci. 15, 627–632 (2022).                   Spatial patterns in CO2 evasion from the global river network.
+26. Evans, C. D. et al. Overriding water table control on managed                Glob. Biogeochem. Cycle 29, 534–554 (2015).
+    peatland greenhouse gas emissions. Nature 593, 548–552 (2021).           49. Hwang, Y. et al. Comprehensive assessments of carbon dynamics
+27. Huang, Y. et al. Tradeoff of CO2 and CH4 emissions from global               in an intermittently-irrigated rice paddy. Agric. For. Meteorol. 285,
+    peatlands under water-table drawdown. Nat. Clim. Chang. 11,                  107933 (2020).
+    618–622 (2021).                                                          50. Knox, S. H. et al. Agricultural peatland restoration: effects of land-use
+28. Ise, T., Dunn, A. L., Wofsy, S. C. & Moorcroft, P. R. High sensitivity       change on greenhouse gas (CO2 and CH4) fluxes in the Sacramento‐
+    of peat decomposition to climate change through water-table                  San Joaquin Delta. Glob. Change Biol. 21, 750–765 (2015).
+    feedback. Nat. Geosci. 1, 763–766 (2008).                                51. Garonna, I., de Jong, R. & Schaepman, M. E. Variability and
+29. Kwon, M. J. et al. Lowering water table reduces carbon sink                  evolution of global land surface phenology over the past three
+    strength and carbon stocks in northern peatlands. Glob. Change               decades (1982–2012). Glob. Change Biol. 22, 1456–1468 (2016).
+    Biol. 28, 6752–6770 (2022).                                              52. Tang, W., Qin, J., Yang, K., Jiang, Y. & Pan, W. Mapping long-term
+30. Deshmukh, C. S. et al. Conservation slows down emission                      and high-resolution global gridded photosynthetically active
+    increase from a tropical peatland in Indonesia. Nat. Geosci. 14,             radiation using the ISCCP H-series cloud product and reanalysis
+    484–490 (2021).                                                              data. Earth. Syst. Sci. Data 14, 2007–2019 (2022).
+31. Lehner, B. et al. Mapping the world’s inland surface waters: an          53. Gallego-Sala, A. V. et al. Latitudinal limits to the predicted
+    update to the Global Lakes and Wetlands Database (GLWD v2).                  increase of the peatland carbon sink with warming. Nat. Clim.
+    Earth. Syst. Sci. Data Discuss. 2024, 1–49 (2024).                           Chang. 8, 907–913 (2018).
+32. Laiho, R. Decomposition in peatlands: reconciling seemingly              54. Dalmagro, H. J. et al. Radiative forcing of methane fluxes offsets
+    contrasting results on the impacts of lowered water levels. Soil             net carbon dioxide uptake for a tropical flooded forest. Glob.
+    Biol. Biochem. 38, 2011–2024 (2006).                                         Change Biol. 25, 1967–1981 (2019).
+33. Sulman, B. N. et al. CO2 fluxes at northern fens and bogs have           55. Hirano, T. et al. Large variation in carbon dioxide emissions from
+    opposite responses to inter-annual fluctuations in water table.              tropical peat swamp forests due to disturbances. Commun. Earth
+    Geophys. Res. Lett. 37, L19702 (2010).                                       Environ. 5, 221 (2024).
+34. Grant, R. F., Desai, A. R. & Sulman, B. N. Modelling contrasting         56. Yu, Z. et al. Peatlands and their role in the global carbon cycle.
+    responses of wetland productivity to changes in water table                  Eos 92, 97–98 (2011).
+    depth. Biogeosciences 9, 4215–4231 (2012).                               57. Ribeiro, K. et al. Tropical peatlands and their contribution to the
+35. Ouyang, X., Maher, D. T. & Santos, I. R. Climate change decreases            global carbon cycle and climate change. Glob. Change Biol. 27,
+    groundwater carbon discharges in global tidal wetlands. One                  489–505 (2021).
+    Earth 7, 1442–1455 (2024).                                               58. Greenwell, B. M. pdp: an R package for constructing partial
+36. Fan, Y., Li, H. & Miguez-Macho, G. Global patterns of groundwater            dependence plots. R. J. 9, 421–436 (2017).
+    table depth. Science 339, 940–943 (2013).                                59. Chen, H., Xu, X., Fang, C., Li, B. & Nie, M. Differences in the
+37. Schrier-Uijl, A. P. et al. Comparison of chamber and eddy covariance-        temperature dependence of wetland CO2 and CH4 emissions vary
+    based CO2 and CH4 emission estimates in a heterogeneous grass                with water table depth. Nat. Clim. Chang. 11, 766–771 (2021).
+    ecosystem on peat. Agric. For. Meteorol. 150, 825–831 (2010).            60. Wei, S. et al. Climate warming negatively affects plant water-use
+38. Saunois, M. et al. The global methane budget 2000 ‒2017. Earth.              efficiency in a seasonal hydroperiod wetland. Water Res. 242,
+    Syst. Sci. Data 12, 1561–1623 (2020).                                        120246 (2023).
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                    1870
+Article                                                                                               https://doi.org/10.1038/s41559-025-02809-1
+
+61. Naeem, S. et al. Recent change in ecosystem water use efficiency         85. Pastorello, G. et al. The FLUXNET2015 dataset and the ONEFlux
+    in China mainly dominated by vegetation greening and increased                processing pipeline for eddy covariance data. Sci. Data 7, 225 (2020).
+    CO2. Remote Sens. Environ. 298, 113811 (2023).                           86. Harris, I., Osborn, T. J., Jones, P. & Lister, D. Version 4 of the CRU TS
+62. Crous, K. Y. Plant responses to climate warming: physiological                monthly high-resolution gridded multivariate climate dataset. Sci.
+    adjustments and implications for plant functioning in a future,               Data 7, 109 (2020).
+    warmer world. Am. J. Bot. 106, 1049–1051 (2019).                         87. Feng, Q. et al. Long-term gridded land evapotranspiration
+63. Koven, C. D. et al. Permafrost carbon-climate feedbacks                       reconstruction using Deep Forest with high generalizability. Sci.
+    accelerate global warming. Proc. Natl Acad. Sci. USA 108,                     Data 10, 908 (2023).
+    14769–14774 (2011).                                                      88. Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1‐km spatial resolution
+64. Liu, Z. et al. Respiratory loss during late-growing season                    climate surfaces for global land areas. Int. J. Climatol. 37, 4302–
+    determines the net carbon dioxide sink in northern permafrost                 4315 (2017).
+    regions. Nat. Commun. 13, 5626 (2022).                                   89. Rodell, M. et al. The global land data assimilation system. Bull.
+65. Wang, Y. et al. Beyond the visible: accounting for ultraviolet and            Am. Meteorol. Soc. 85, 381–394 (2004).
+    far‐red radiation in vegetation productivity and surface energy          90. Marthews, T. R., Dadson, S. J., Lehner, B., Abele, S. & Gedney,
+    budgets. Glob. Change Biol. 30, e17346 (2024).                                N. High-resolution global topographic index values for use in
+66. Hugelius, G. et al. Large stocks of peatland carbon and nitrogen              large-scale hydrological modeling. Hydrol. Earth Syst. Sci. 19,
+    are vulnerable to permafrost thaw. Proc. Natl Acad. Sci. USA 117,             91–104 (2015).
+    20438–20446 (2020).                                                      91. Hu, H. et al. Relative increases in CH4 and CO2 emissions from
+67. Fewster, R. E. et al. Imminent loss of climate space for permafrost           wetlands under global warming dependent on soil carbon
+    peatlands in Europe and Western Siberia. Nat. Clim. Chang. 12,                substrates. Nat. Geosci. 17, 26–31 (2024).
+    373–379 (2022).                                                          92. Xu, P. et al. Fertilizer management for global ammonia emission
+68. Vasiliev, A. A. et al. Permafrost degradation in the western Russian          reduction. Nature 626, 792–798 (2024).
+    arctic. Environ. Res. Lett. 15, 045001 (2020).                           93. Bischl, B., Mersmann, O., Trautmann, H. & Weihs, C.
+69. Serikova, S. et al. High carbon emissions from thermokarst lakes              Resampling methods for meta-model validation with
+    of Western Siberia. Nat. Commun. 10, 1552 (2019).                             recommendations for evolutionary computation. Evol. Comput.
+70. Virkkala, A. M. et al. Statistical upscaling of ecosystem CO2 fluxes          20, 249–275 (2012).
+    across the terrestrial tundra and boreal domain: regional patterns       94. Darst, B. F., Malecki, K. C. & Engelman, C. D. Using recursive
+    and uncertainties. Glob. Change Biol. 27, 4040–4059 (2021).                   feature elimination in random forest to account for correlated
+71. Nahlik, A. M. & Fennessy, M. S. Carbon storage in US wetlands.                variables in high dimensional data. BMC Genet. 19, 1–6
+    Nat. Commun. 7, 13835 (2016).                                                 (2018).
+72. Saatchi, S. et al. Persistent effects of a severe drought on             95. Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).
+    Amazonian forest canopy. Proc. Natl Acad. Sci. USA 110, 565–570          96. Patoine, G. et al. Drivers and trends of global soil microbial
+    (2013).                                                                       carbon over two decades. Nat. Commun. 13, 4195
+73. Brienen, R. J. et al. Long-term decline of the Amazon carbon sink.            (2022).
+    Nature 519, 344–348 (2015).                                              97. R Core Team. R: A Language and Environment for Statistical
+74. Yang, Y. et al. Post-drought decline of the Amazon carbon sink.               Computing (R Foundation for Statistical Computing, 2021).
+    Nat. Commun. 9, 3172 (2018).                                             98. Ren, S., Wang, C. & Zhou, Z. Global distributions of reactive iron
+75. Hubau, W. et al. Asynchronous carbon sink saturation in African               and aluminum influence the spatial variation of soil organic
+    and Amazonian tropical forests. Nature 579, 80–87 (2020).                     carbon. Glob. Change Biol. 30, e17576 (2024).
+76. Dommain, R., Couwenberg, J., Glaser, P. H., Joosten, H. &                99. Zhang, Z. et al. Development of a global dataset of Wetland Area
+    Suryadiputra, I. N. N. Carbon storage and release in Indonesian               and Dynamics for Methane Modeling (WAD2M). Zenodo
+    peatlands since the last deglaciation. Quat. Sci. Rev. 97, 1–32               https://doi.org/10.5281/zenodo.3998453 (2021).
+    (2014).                                                                  100. Bernard, J. et al. GIEMS-MethaneCentric. Zenodo https://doi.org/
+77. Miettinen, J., Hooijer, A., Vernimmen, R., Liew, S. C. & Page, S. E.          10.5281/zenodo.13919644 (2024).
+    From carbon sink to carbon source: extensive peat oxidation in           101. Lehner, B. et al. Global Lakes and Wetlands Database
+    insular Southeast Asia since 1990. Environ. Res. Lett. 12, 024014             (GLWD) version 2.0. Figshare https://doi.org/10.6084/
+    (2017).                                                                       m9.figshare.28519994.v1 (2025).
+78. Jeong, S. J., HO, C. H., GIM, H. J. & Brown, M. E. Phenology shifts at   102. Fluet-Chouinard, E. et al. Global wetland loss reconstruction
+    start vs. end of growing season in temperate vegetation over the              over 1700–2020. Zenodo https://doi.org/10.5281/zenodo.7293597
+    Northern Hemisphere for the period 1982–2008. Glob. Change                    (2022).
+    Biol. 17, 2385–2399 (2011).                                              103. Li, J. et al. Two decades of improved wetland carbon
+79. Buermann, W. et al. Widespread seasonal compensation effects                  sequestration in northern mid-high latitudes offset by tropical
+    of spring warming on northern plant productivity. Nature 562,                 and southern declines. Figshare https://doi.org/10.6084/
+    110–114 (2018).                                                               m9.figshare.26825293 (2025).
+80. Tourian, M. J. et al. Current availability and distribution of Congo     104. Liu, L. et al. Increasingly negative tropical water-interannual CO2
+    Basin’s freshwater resources. Commun. Earth Environ. 4, 174                   growth rate coupling. Nature 618, 755–760 (2023).
+    (2023).
+81. Heinrich, V. H. et al. The carbon sink of secondary and degraded         Acknowledgements
+    humid tropical forests. Nature 615, 436–442 (2023).                      This work was financially supported by the National Natural
+82. Peng, S. et al. Wetland emission and atmospheric sink changes            Science Foundation of China (grant nos. 42322709, 42177301
+    explain methane growth in 2020. Nature 612, 477–482 (2022).              and U24A20628), the Natural Science Foundation (BK20230050),
+83. Fluet-Chouinard, E. et al. Extensive global wetland loss over the        Carbon Peak & Carbon Neutral Science and Technology Innovation
+    past three centuries. Nature 614, 281–286 (2023).                        Project of Jiangsu Province (BK20220020) and the Chinese
+84. Natali, S. M. et al. Large loss of CO2 in winter observed across the     Academy of Sciences Project for Young Scientists in Basic
+    northern permafrost region. Nat. Clim. Chang. 9, 852–857 (2019).         Research (YSBR-089).
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                     1871
+Article                                                                                                   https://doi.org/10.1038/s41559-025-02809-1
+
+Author contributions                                                             Peer review information Nature Ecology & Evolution thanks Xiaoguang
+J.Y., W.D. and J.L. designed the research. J.L., P.C., H.K., C.F., Y.H., Y.D.,   Ouyang and Carl Trettin for their contribution to the peer review of
+D.L. and Y.L. performed the data extraction and analysis. J.L. wrote the         this work.
+first draft of the paper, with all authors contributing to the revisions.
+                                                                                 Reprints and permissions information is available at
+Competing interests                                                              www.nature.com/reprints.
+The authors declare no competing interests.
+                                                                                 Publisher’s note Springer Nature remains neutral with regard to
+Additional information                                                           jurisdictional claims in published maps and institutional affiliations.
+Extended data is available for this paper at
+https://doi.org/10.1038/s41559-025-02809-1.                                      Springer Nature or its licensor (e.g. a society or other partner) holds
+                                                                                 exclusive rights to this article under a publishing agreement with
+Supplementary information The online version                                     the author(s) or other rightsholder(s); author self-archiving of the
+contains supplementary material available at                                     accepted manuscript version of this article is solely governed by the
+https://doi.org/10.1038/s41559-025-02809-1.                                      terms of such publishing agreement and applicable law.
+
+Correspondence and requests for materials should be addressed to                 © The Author(s), under exclusive licence to Springer Nature Limited
+Junji Yuan or Weixin Ding.                                                       2025
+
+
+
+State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, China. 2University of Chinese
+1
+
+
+Academy of Sciences, Beijing, China. 3Laboratoire des Sciences du Climat et de l’Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay,
+Gif-sur-Yvette, France. 4Yellow River Research Institute, North China University of Water Resources and Electric Power, Zhengzhou, China. 5School of
+Natural Sciences, Bangor University, Gwynedd, UK. 6Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences
+and Natural Resources Research, Chinese Academy of Sciences, Beijing, China. 7Co-Innovation Center for Sustainable Forestry in Southern China,
+Nanjing Forestry University, Nanjing, China.    e-mail: jjyuan@issas.ac.cn; wxding@issas.ac.cn
+
+
+
+
+Nature Ecology & Evolution | Volume 9 | October 2025 | 1861–1872                                                                                      1872
+Article                                                                                                           https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 1 | Characteristics of global wetland water level (WL).            inside the boxes represent means. Box boundaries represent the 75th and 25th
+a Global distribution of field observations of wetland WL included in our             quantiles, whisker caps represent the 95th and 5th quantiles. Different lowercase
+compiled dataset. The wetland types are shown as colored dots. b, c Box plots of      letters indicate significant differences at α = 0.05, as determined by using one-way
+wetland WL in different climate zones (b) and wetland types (c). Note here that the   ANOVA and LSD tests. No adjustments were made for multiple comparisons.
+definition of floodplain represents seasonal or permanent inundated floodplain.       Numbers in parentheses next to the x-axis indicate sample sizes (n).
+For each box plot, individual data points are shown as colored dots. Center lines
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                     https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 2 | Spatiotemporal pattern of global wetland water level (WL). a Global map of mean annual wetland WL between 2000 and 2020 at 0.25° × 0.25°
+resolution. b Global distribution of temporal trends in annual wetland WL during 2000‒2020 at 0.25° × 0.25° resolution.
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                        https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 3 | Non-linear responses of net ecosystem production (NEP) to water level (WL) for global wetlands and wetlands in extra-tropical and tropical
+regions. The y-axis denotes the marginal effect of WL on the predicted NEP (that is, f(NEP)), while holding all other predictors constant. f(NEP) was detected by the
+partial dependence plot from the random forest model.
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                                   https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 4 | Comparison of the sensitivity of net ecosystem production (NEP) to water level (WL) obtained in this study with Zou et al.25, Li et al.18, and Evans et al.26.
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                    https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 5 | Key factors controlling wetland water level (WL) at the   index; fw, inundation fraction; MAP, mean annual precipitation; MAT, mean
+global scale. Relative importance (%) of variables for predicting wetland WL     annual air temperature; NDVI, normalized difference vegetation index; PAR,
+identified by the random forest model. BD, soil bulk density; CTI, compound      photosynthetically active radiation; WTD Fan, terrestrial groundwater table
+topographic index; ET, evapotranspiration; EVI, enhanced vegetation              depth from Fan et al.36.
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                      https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 6 | Linear relationships of annual net ecosystem              average predicted values and the corresponding 95% confidence interval,
+production (NEP) with mean annual air temperature (MAT) and                      respectively, according to linear mixed-effect modelling. Statistical tests are
+photosynthetically active radiation (PAR) for global wetlands and wetlands       conducted as two-sided.
+in extra-tropical and tropical regions. Black solid and dashed lines represent
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                        https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 7 | Temporal patterns in global wetland carbon sequestration   at 0.25° × 0.25° resolution, which was already weighted by grid cell areas. b Global
+for the period 2000‒2005 and 2006‒2020. a Global explicit map of temporal         distribution of temporal trends in annual wetland NEP during 2006‒2020 at
+trends in annual wetland net ecosystem production (NEP) between 2000 and 2005     0.25° × 0.25° resolution, which was already weighted by grid cell areas.
+
+
+
+
+Nature Ecology & Evolution
+Article                                                                                                         https://doi.org/10.1038/s41559-025-02809-1
+
+
+
+
+Extended Data Fig. 8 | Wetland carbon (C) sinks versus land C sinks across the      wetland C sinks and land C sinks for the period 2000‒2020. The black solid line
+globe. a Interannual variations in land C sinks over the period of 1980‒2020.       indicates the fitted linear regression model, with the error band representing
+Data on land C sinks was derived from the study by Friedlingstein et al.6. Linear   the 95% confidence interval. Statistical tests are conducted as two-sided. Data
+regression models were used to derive the tendency lines, which are shown           records on wetland C sinks and land C sinks are detrended at yearly time scale
+as black solid lines; the error bands represent the 95% confidence interval.        by removing the long-term linear trend104. Land C sink in 2002 was treated as an
+Statistical tests are conducted as two-sided. b Linear relationship between         outlier based on the Z-score outlier test, and was not included in the linear fit.
+
+
+
+
+Nature Ecology & Evolution
